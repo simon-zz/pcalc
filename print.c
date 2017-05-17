@@ -66,7 +66,7 @@ void    print_num(double var)
 	if (fOctal)
 	  printf("\t0o%-16llo", (unsigned long long)var);
 	printf("\t0x%-16llx", (unsigned long long)var);
-	printf("\t0y%s\n", work_str);
+	printf("\t0b%s\n", work_str);
       }
 }
 
